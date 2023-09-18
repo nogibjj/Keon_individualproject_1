@@ -21,12 +21,23 @@ def visualize_data(df):
     plt.title("Miles per gallon changes with automible weight")
     plt.show()
 
+def data_csv(file_path):
+    try:
+        data = pl.read_csv(file_path)
+        return data
+    except FileNotFoundError:
+        print(f"File {file_path} not found")
+        return None
+    except Exception as error:
+        print(f"Error while loading CSV File: {str(error)}")
+        return None
 
-if __name__ == '__main__':
-    cars = pl.read_csv(r"https://gist.githubusercontent.com/seankross/a412dfbd88b3db70b74b/raw/5f23f993cd87c283ce766e7ac6b329ee7cc2e1d1/mtcars.csv")
-    print(cars.head())
-    print(stat_mean(cars, 'mpg'))
-    print(stat_median(cars, 'mpg'))
-    print(stat_std(cars, 'mpg'))
-    print(stat_summary(cars, "mpg"))
-    visualize_data(cars)
+
+# if __name__ == '__main__':
+#     cars = pl.read_csv(r"https://gist.githubusercontent.com/seankross/a412dfbd88b3db70b74b/raw/5f23f993cd87c283ce766e7ac6b329ee7cc2e1d1/mtcars.csv")
+#     print(cars.head())
+#     print(stat_mean(cars, 'mpg'))
+#     print(stat_median(cars, 'mpg'))
+#     print(stat_std(cars, 'mpg'))
+#     print(stat_summary(cars, "mpg"))
+#     visualize_data(cars)
