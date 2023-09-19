@@ -21,6 +21,19 @@ def visualize_data(df):
     plt.title("Miles per gallon changes with automible weight")
     plt.show()
 
+def plot_hist(df, col, jupyter = False):
+    data = df[col]
+    plt.hist(data, bins=5, edgecolor="k")
+
+    plt.xlabel('Miles Per Gallon')
+    plt.ylabel('Horse Power')
+    plt.title('Histogram of Average Annual Wages')
+    plt.show()
+    
+    if not jupyter:
+        hist_path = 'output/visualization_histogram.png'
+        plt.savefig(hist_path)
+
 def data_csv(file_path):
     try:
         data = pl.read_csv(file_path)
