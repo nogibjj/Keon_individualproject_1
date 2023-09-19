@@ -21,13 +21,17 @@ def visualize_data(df):
     plt.title("Miles per gallon changes with automible weight")
     plt.show()
 
+    if not jupyter:
+        growth_path = 'output/visualization_growth.png'
+        plt.savefig(growth_path)
+
 def plot_hist(df, col, jupyter = False):
     data = df[col]
     plt.hist(data, bins=5, edgecolor="k")
 
     plt.xlabel('Miles Per Gallon')
-    plt.ylabel('Horse Power')
-    plt.title('Histogram of Average Annual Wages')
+    plt.ylabel('Number of Cars')
+    plt.title('Number of Cars')
     plt.show()
     
     if not jupyter:
