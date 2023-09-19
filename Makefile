@@ -4,7 +4,7 @@ install:
 
 test:
 	python -m pytest --nbval src/*.ipynb
-	python -m pytest -vv --cov=main test_*.py
+	python -m pytest -vv --cov=src.lib
 
 format:	
 	black *.py
