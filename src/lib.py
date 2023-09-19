@@ -22,10 +22,11 @@ def visualize_data(df):
     plt.show()
 
     if not jupyter:
-        growth_path = 'output/visualization_growth.png'
-        plt.savefig(growth_path)
+        visualization_path = '/workspaces/Keon_individualproject_1/output'
+        plt.savefig(visualization_path)  # save png
 
-def plot_hist(df, col, jupyter = False):
+
+def plot_hist(df, col):
     data = df[col]
     plt.hist(data, bins=5, edgecolor="k")
 
@@ -33,10 +34,16 @@ def plot_hist(df, col, jupyter = False):
     plt.ylabel('Number of Cars')
     plt.title('Number of Cars')
     plt.show()
+
     
     if not jupyter:
-        hist_path = 'output/visualization_histogram.png'
-        plt.savefig(hist_path)
+        visualization_path = '/workspaces/Keon_individualproject_1/output'
+        plt.savefig(visualization_path)  # save png
+
+# def save_plot(file_name, df):
+#     visualize_data(df).savefig(
+#         "pythonproject/figures/" + f"scatter_plot_{file_name}.png"
+#     )
 
 def data_csv(file_path):
     try:
