@@ -7,8 +7,8 @@ test:
 	python -m pytest -vv --cov=src.lib
 
 format:	
-	black *.py
-	nbqa black *.ipynb
+	black src/*.py
+	nbqa black src/*.ipynb
 
 lint:
 	nbqa ruff src/*.ipynb
