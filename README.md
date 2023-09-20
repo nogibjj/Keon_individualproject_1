@@ -2,7 +2,11 @@
 
 [![Format](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/format.yml)
 
-Mini-project 2. 
+[![Lint](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/lint.yml)
+
+[![OnInstall](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/install.yml)
+
+Individual-project 1. 
 
 ## Purpose 
 
