@@ -21,9 +21,9 @@ def visualize_data(df):
     plt.title("Miles per gallon changes with automible weight")
     plt.show()
 
-    #if not jupyter:
-    visualization_path = '/workspaces/Keon_individualproject_1/output'
-    plt.savefig(visualization_path)  # save png
+    # #if not jupyter:
+    # visualization_path = '/workspaces/Keon_individualproject_1/output'
+    # plt.savefig(visualization_path)  # save png
 
 
 def plot_hist(df, col):
@@ -36,14 +36,9 @@ def plot_hist(df, col):
     plt.show()
 
     
-    # if not jupyter:
-    visualization_path = '/workspaces/Keon_individualproject_1/output'
-    plt.savefig(visualization_path)  # save png
-
-# def save_plot(file_name, df):
-#     visualize_data(df).savefig(
-#         "pythonproject/figures/" + f"scatter_plot_{file_name}.png"
-#     )
+    # # if not jupyter:
+    # visualization_path = '/workspaces/Keon_individualproject_1/output'
+    # plt.savefig(visualization_path)  # save png
 
 def data_csv(file_path):
     try:
