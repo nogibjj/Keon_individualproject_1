@@ -18,3 +18,17 @@ def test_descriptive_stats():
     assert 'Mean' in results
     assert 'Median' in results
     assert 'Standard Deviation' in results
+
+def test_visualize_data():
+    """Testing function for visualization"""
+
+    data = pl.read_csv(r"https://gist.githubusercontent.com/seankross/a412dfbd88b3db70b74b/raw/5f23f993cd87c283ce766e7ac6b329ee7cc2e1d1/mtcars.csv")
+    df["mpg"] 
+    df["hp"]
+
+    # Test if the function executes without errors
+    visualize_data(df)
+
+    # Capture the plot output and check if it's not empty
+    fig = plt.gcf()
+    assert len(fig.axes) > 0
