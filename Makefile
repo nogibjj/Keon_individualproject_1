@@ -11,7 +11,8 @@ format:
 	nbqa black *.ipynb
 
 lint:
-	ruff check *.py
+	nbqa ruff src/*.ipynb
+	ruff check src/*.py
 
 
 run:
