@@ -6,6 +6,9 @@
 
 [![OnInstall](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/install.yml)
 
+[![Test](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/test.yml)
+
+
 Individual-project 1. 
 
 ## Purpose 
