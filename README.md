@@ -1,5 +1,7 @@
 # IDS706-python-template [![CI](https://github.com/nogibjj/IDS706-python-template/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/IDS706-python-template/actions/workflows/ci.yml)
 
+[![Format](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Keon_individualproject_1/actions/workflows/format.yml)
+
 Mini-project 2. 
 
 ## Purpose 
