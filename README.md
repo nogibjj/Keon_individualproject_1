@@ -11,7 +11,8 @@
 
 ## Purpose 
 
-The purpose of this project is using Pandas to load a dataframe. I used a `pd.DataFrame` as a sample data and test its descriptions using the function `pandas_descriptive_stats_*()`. 
+The purpose of this project is using Github workflow 
+Pandas to load a dataframe. I used a `pd.DataFrame` as a sample data and test its descriptions using the function `pandas_descriptive_stats_*()`. 
 The visualization on a scatter plot.
 
 ## Jupyter Notebook 
@@ -45,6 +46,9 @@ test_script.py to test script
 test_lib.py to test library
 GitHub Actions performs all four Makefile commands with badges for each one in the README.md
 
+
+<img width="903" alt="Screenshot 2023-09-20 at 4 18 17 PM" src="https://github.com/nogibjj/Keon_individualproject_1/assets/125210401/4f2fe092-294e-4a00-afb0-d73f851d4c79">
+
   
 ## Visualisation 
 
@@ -52,8 +56,7 @@ A scatter plot is generated to compare the variables of Miles per Gallon and Hor
 
 ![output](https://github.com/nogibjj/IDS706_mini_project_2/assets/125210401/ce1cb228-d3f5-4888-a51a-845cee91a1b5)
 
-
-![output](https://github.com/nogibjj/Keon_individualproject_1/assets/125210401/86cdd849-f14d-49d6-b5b0-24469655845d)
+<img width="598" alt="Screenshot 2023-09-20 at 4 21 20 PM" src="https://github.com/nogibjj/Keon_individualproject_1/assets/125210401/1d64e3ce-9bfb-4d7f-bac3-fc8ad193531e">
 
 
 ## Automation 
