@@ -38,9 +38,6 @@ Runs the several processes like `install` to automatically install packages from
 The [dataset](https://gist.githubusercontent.com/seankross/a412dfbd88b3db70b74b/raw/5f23f993cd87c283ce766e7ac6b329ee7cc2e1d1/mtcars.csv)
 is about about various cars `Models`, `Miles per gallon`, `Cylinders`, `Gear` `Horsepower`.
 
-test_script.py to test script
-test_lib.py to test library
-
 ## Data Statistics
 
 <img width="903" alt="Screenshot 2023-09-20 at 4 18 17 PM" src="https://github.com/nogibjj/Keon_individualproject_1/assets/125210401/4f2fe092-294e-4a00-afb0-d73f851d4c79">
@@ -54,6 +51,9 @@ A scatter plot is generated to compare the variables of Miles per Gallon and Hor
 
 <img width="598" alt="Screenshot 2023-09-20 at 4 21 20 PM" src="https://github.com/nogibjj/Keon_individualproject_1/assets/125210401/1d64e3ce-9bfb-4d7f-bac3-fc8ad193531e">
 
+## Test_Scripts
+
+includes test_script.py to test script and test_lib.py to test library
 
 # Automation 
 
