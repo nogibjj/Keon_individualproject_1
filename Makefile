@@ -11,7 +11,7 @@ format:
 	nbqa black *.ipynb
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+	pylint --disable=R,C --ignore-patterns=src/*.py
 
 run:
 	nbqa ruff *.ipynb
