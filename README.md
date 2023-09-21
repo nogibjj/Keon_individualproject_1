@@ -2,6 +2,10 @@
 
 This project uses Continuous Integration/Continuous Development in Python script and Jupyter notebooks through Github Actions.
 
+## Video Description
+
+[Link](https://youtu.be/9PpnvsMWJpQ)
+
 ## Github Actions
 
 Runs the several processes like `install` to automatically install packages from `requirements.txt` to `format`,`lint`,`test` my scripts and notebook and when passed creates the badges below.
