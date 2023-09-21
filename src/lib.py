@@ -5,14 +5,18 @@ import matplotlib.pyplot as plt
 def stat_summary(df: pl.DataFrame, col: str):
     return df.describe()
 
+
 def stat_mean(df: pl.DataFrame, col: str) -> float:
     return df[col].sum() / len(df[col])
+
 
 def stat_median(df: pl.DataFrame, col: str) -> float:
     return df[col].median()
 
+
 def stat_std(df: pl.DataFrame, col: str) -> float:
     return df[col].std()
+
 
 def visualize_data(df):
     plt.scatter(df["mpg"], df["hp"])
@@ -30,15 +34,15 @@ def plot_hist(df, col):
     data = df[col]
     plt.hist(data, bins=5, edgecolor="k")
 
-    plt.xlabel('Miles Per Gallon')
-    plt.ylabel('Number of Cars')
-    plt.title('Number of Cars')
+    plt.xlabel("Miles Per Gallon")
+    plt.ylabel("Number of Cars")
+    plt.title("Number of Cars")
     plt.show()
 
-    
     # # if not jupyter:
     # visualization_path = '/workspaces/Keon_individualproject_1/output'
     # plt.savefig(visualization_path)  # save png
+
 
 def data_csv(file_path):
     try:
