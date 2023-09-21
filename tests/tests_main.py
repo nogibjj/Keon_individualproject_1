@@ -26,7 +26,6 @@ def test_visualize_data():
     df["mpg"] 
     df["hp"]
 
-    # Test if the function executes without errors
     visualize_data(df)
 
     # Capture the plot output and check if it's not empty
